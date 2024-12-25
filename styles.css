@@ -1,0 +1,82 @@
+/* General Styling */
+body {
+    background: linear-gradient(to right, #000428, #004e92);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1c1c1e;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffd700;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+.hero {
+    background: url('modern-space1.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    background: #ffd700;
+    border: none;
+    color: #1c1c1e;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.hero .btn:hover {
+    background: #ffc107;
+    transform: scale(1.05);
+}
+
+footer {
+    background: #1c1c1e;
+    text-align: center;
+    padding: 1rem 0;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #b3b3b3;
+}
